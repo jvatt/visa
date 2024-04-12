@@ -37,7 +37,7 @@ function MainView() {
           </QuizButton>
         )}
         {error && <div className="text-red-900">{error}</div>}
-        <a className="text-blue-900 underline" href="visa/example_quiz.json">
+        <a className="text-blue-900 underline" href="example_quiz.json">
           Download example quiz file
         </a>
       </div>
