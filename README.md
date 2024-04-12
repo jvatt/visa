@@ -14,4 +14,6 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000/visa) with your browser to see the result.
+Open [http://localhost:3000/visa](http://localhost:3000/visa) with your browser to see the result.
+
+Use the example_quiz.json file to see what a quiz looks like.
