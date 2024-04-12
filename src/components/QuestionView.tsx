@@ -1,5 +1,4 @@
 import { Question } from "@/types";
-import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
 import AnswerView from "./AnswerView";
 import QuizButton from "./QuizButton";
@@ -49,7 +48,7 @@ function QuestionView({ question, answersEnabled }: Props) {
 
       {question.media?.images &&
         question.media.images.map((v) => (
-          <Image
+          <img
             alt="image not found"
             height={480}
             width={960}

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Answer } from "@/types";
 
 type Props = {
@@ -19,7 +18,7 @@ function AnswerView({ answer, showCorrectAnswer }: Props) {
           ))}
       </div>
       {showCorrectAnswer && !!answer.imageUrl && (
-        <Image
+        <img
           alt="image not found"
           height={480}
           width={960}
