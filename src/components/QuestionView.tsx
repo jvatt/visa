@@ -39,7 +39,7 @@ function QuestionView({ question, answersEnabled }: Props) {
 
   return (
     <div className="min-h-[666px] w-[960px] overflow-scroll space-y-5">
-      <div>{question.question}</div>
+      <div className="whitespace-pre-line">{question.question}</div>
 
       {question.media?.videos &&
         question.media.videos.map((v) => (
